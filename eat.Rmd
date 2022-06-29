@@ -63,7 +63,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
   
-In terms of eating out white people ate out 83% of the time compared to black people at out 69% percent of time and others eat 72%.  
+In terms of eating out white people eat out 83% of the time, black people eat out 69% percent of time, and others eat out 72% of the time.  There is a significant difference between others and white individuals.  
 
 # Results 
 
