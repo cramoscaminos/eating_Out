@@ -32,17 +32,26 @@ mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
 ```
 
-## Methods
+# Methods
 Response variable is categorical:  dine out last week? yes or no
 
 Explanatory variable is race, it too is a categorical variable. So, we use cat~cat. 
 
 Inference: chi-squared and fisher exact tests 
 
-## Descriptive summeries 
+# Descriptive summeries 
 
-### Graphical summary 
+## Graphical summary 
 
+### Barchart 
+
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
+  
+Black and others eat out about the same. White tend to eat out more often. 
 
 
 
