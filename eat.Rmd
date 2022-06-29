@@ -1,6 +1,6 @@
 ---
 title: "Eating Out"
-author: "Carmen Ramos Caminos"
+author: "Carmen Ramos-Caminos"
 output: 
   html_document:
     number_sections: true
@@ -32,6 +32,16 @@ mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
 ```
 
+## Methods
+Response variable is categorical:  dine out last week? yes or no
+
+Explanatory variable is race, it too is a categorical variable. So, we use cat~cat. 
+
+Inference: chi-squared and fisher exact tests 
+
+## Descriptive summeries 
+
+### Graphical summary 
 
 
 
