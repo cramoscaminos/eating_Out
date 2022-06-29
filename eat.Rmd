@@ -1,6 +1,6 @@
 ---
 title: "Eating Out"
-author: "Carmen Ramos-Caminos"
+author: "Carmen Ramos Caminos"
 output: 
   html_document:
     number_sections: true
