@@ -37,11 +37,11 @@ mydata <- na.omit(mydata)
 # Methods
 Response variable is categorical:  dine out last week? yes or no
 
-Explanatory variable is race, it too is a categorical variable. So, we use cat~cat. 
+Explanatory variable is race. It is a categorical variable, so we use cat~cat. 
 
 Inference: chi-squared and fisher exact tests 
 
-# Descriptive summeries 
+# Descriptive summaries 
 
 ## Graphical summary 
 
@@ -53,7 +53,7 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 ```
   
-Black people and others eat out about the same. White individuals tend to eat out more often.  
+By looking at the frequency graph black people and others tend to eat out about the same in frequency. White individuals tend to eat out more often.  
 
 ## Numerical Summary  
 
